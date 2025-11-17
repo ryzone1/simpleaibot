@@ -9,30 +9,17 @@
 ✅ Лёгкий и быстрый: написан на Node.js с использованием ES-модулей, Telegraf и Axios.
 🚀 Как запустить
 Установи Ollama и скачай модель:
-bash
 
-
-1
 ollama pull qwen3:4b
 Получи API-ключ от OpenRouter и сохрани его в .env:
-env
 
-
-1
-2
 BOT_TOKEN=your_telegram_bot_token
 OPENROUTER_API_KEY=your_openrouter_api_key
 Установи зависимости:
-bash
 
-
-1
 npm install telegraf axios dotenv ollama
 Запусти бота:
-bash
 
-
-1
 npm start
 💡 Важно: Ollama должен быть запущен (ollama serve) — иначе бот автоматически использует OpenRouter. 
 
