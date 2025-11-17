@@ -18,34 +18,34 @@
 
 #### Установи Ollama и скачай модель:
 
-ollama pull qwen3:4b
+`ollama pull qwen3:4b`
 
 #### Получи API-ключ от OpenRouter и сохрани его в .env:
 
-BOT_TOKEN=your_telegram_bot_token
+`BOT_TOKEN=your_telegram_bot_token`
 
-OPENROUTER_API_KEY=your_openrouter_api_key
+`OPENROUTER_API_KEY=your_openrouter_api_key`
 
 #### Установи зависимости:
 
-npm install telegraf axios dotenv ollama
+`npm install telegraf axios dotenv ollama`
 
-####Запусти бота:
+#### Запусти бота:
 
-npm start
+`npm start`
 
 ### 💡 Важно: Ollama должен быть запущен — иначе бот автоматически использует OpenRouter. 
 
 ## 🛠 Технологии
 
-Node.js (ES-модули)
+`Node.js` (ES-модули)
 
-Telegraf.js — фреймворк для Telegram-ботов
+`Telegraf.js` — фреймворк для Telegram-ботов
 
-Ollama — локальная LLM-платформа
+`Ollama` — локальная LLM-платформа
 
-OpenRouter — единый API для десятков моделей
+`OpenRouter` — единый API для десятков моделей
 
-Axios & Fetch — HTTP-запросы
+`Axios & Fetch` — HTTP-запросы
 
-dotenv — управление переменными окружения
+`dotenv` — управление переменными окружения
